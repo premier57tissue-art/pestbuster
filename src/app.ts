@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import toyyibpayRouter from "./routes/toyyibpay";
+import toyyibpayRouter from "./routes/toyyibpay.js";
 
 const app = express();
 app.use(cors());
